@@ -1,0 +1,22 @@
+.file-view {
+    background: rgb(133, 133, 133);
+    width: 100%;
+    height: 100vh;
+
+    &-header {
+        padding: 5px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+
+        input {
+            padding: 10px;
+            background: rgb(207, 207, 207);
+            border: 0;
+            outline: none;
+            border-radius: 10px;
+        }
+    }
+}

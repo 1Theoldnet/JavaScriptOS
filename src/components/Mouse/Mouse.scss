@@ -1,0 +1,12 @@
+.mouse {
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 100000;
+    pointer-events: none;
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}

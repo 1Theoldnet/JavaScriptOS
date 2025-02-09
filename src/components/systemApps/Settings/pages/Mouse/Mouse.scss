@@ -1,0 +1,59 @@
+.mouse-page {
+    height: 100vh;
+    margin: 15px;
+
+    input {
+        border: 0;
+        padding: 10px;
+        border-radius: 10px;
+        outline: none;
+        font-weight: bold;
+        margin-right: 12px;
+        background: rgb(213, 213, 213);
+    }
+
+    .add-mouse {
+        padding: 10px;
+        border: 0;
+        background: green;
+        color: white;
+        outline: none;
+        border-radius: 10px;
+    }
+
+    .allMouse {
+        background: rgb(213, 213, 213);
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        gap: 12px;
+        margin-top: 8px;
+        padding: 12px;
+        height: 240px;
+        overflow: auto;
+
+        .mouseMap {
+            background: rgb(179, 179, 179);
+            background-repeat: no-repeat;
+            background-size: 80%;
+            border-radius: 10px;
+            background-position: center;
+            height: 113px;
+            width: 109px;
+
+            .remove-mouse {
+                padding: 10px;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                border: 0;
+                background: red;
+                color: white;
+                font-size: 22px;
+                margin: 10px;
+                outline: none;
+                border-radius: 10px;
+            }
+        }
+    }
+}

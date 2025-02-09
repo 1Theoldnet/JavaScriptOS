@@ -1,0 +1,25 @@
+@keyframes show-context-menu {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.countext-menu {
+    position: fixed;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    animation: show-context-menu linear 300ms;
+    transition: 250ms all;
+    box-shadow: 5px 5px 20px black;
+    display: flex;
+    z-index: 100;
+    flex-flow: column;
+    gap: 10px;
+}
