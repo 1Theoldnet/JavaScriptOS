@@ -1,17 +1,17 @@
 .left-bar {
-    top: 0px;
+    top: 45px;
     left: 0px;
     position: fixed;
     z-index: 100;
     width: 100px;
-    height: 100vh;
+    height: calc(100vh - 45px);
     border-right: 1px solid white;
 
     .left-bar-menu {
         margin-top: 10px;
         margin-left: 10px;
         width: 78px;
-        height: calc(100vh - 20px);
+        height: calc(100vh - 66px);
         background: transparent;
         border-radius: 20px;
         backdrop-filter: blur(15px);

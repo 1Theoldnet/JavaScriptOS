@@ -49,7 +49,7 @@ export const Leftbar: FC<TypeLeftBar> = ({ apps, setApps, openApps, setOpenApps,
                         e.preventDefault()
                         setOpenContext(true)
                         setOpenContextMenuIndexApp(i)
-                        setOpenContextPosition({ x: Math.round(e.clientX - 10), y: Math.round(e.clientY - 8) })
+                        setOpenContextPosition({ x: Math.round(e.clientX - 5), y: Math.round(e.clientY - 55) })
                     }} key={i}><Icon icon={app.icon} /></div>)}
                 </div>
             </div>
